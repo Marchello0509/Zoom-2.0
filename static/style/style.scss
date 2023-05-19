@@ -1,0 +1,27 @@
+$inter: 'Inter', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+@mixin FlexElement($)
+
+.header {
+    width: 1400px;
+    height: 52px;
+    margin: 25px auto;
+    background-color: aqua;
+    &_logo {
+        width: 32px;
+        height: 32px;
+        &_img {
+            margin: 7px 0 0 7px;
+        }
+        &_plogo {
+            font-family: $inter;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 20px;
+            text-align: center; 
+            color: #18216D;
+            margin: 2px;
+        }  
+    }     
+}

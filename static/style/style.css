@@ -1,0 +1,23 @@
+.header {
+  width: 1400px;
+  height: 52px;
+  margin: 25px auto;
+  background-color: aqua;
+}
+.header_logo {
+  width: 32px;
+  height: 32px;
+}
+.header_logo_img {
+  margin: 7px 0 0 7px;
+}
+.header_logo_plogo {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #18216D;
+  margin: 2px;
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
