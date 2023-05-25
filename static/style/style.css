@@ -1,23 +1,35 @@
-.header {
+.site_header {
+  display: flex;
+  align-items: center;
   width: 1400px;
   height: 52px;
-  margin: 25px auto;
-  background-color: aqua;
+  background: aqua;
+  margin: 0 auto;
 }
-.header_logo {
+.site_header_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 114px;
+  height: 32px;
+}
+.site_header_logo_img {
   width: 32px;
   height: 32px;
 }
-.header_logo_img {
-  margin: 7px 0 0 7px;
-}
-.header_logo_plogo {
+.site_header_logo_p {
   font-family: "Inter", sans-serif;
+  color: #18216D;
   font-weight: 600;
   font-size: 20px;
   line-height: 20px;
   text-align: center;
-  color: #18216D;
-  margin: 2px;
+}
+.site_header_nav {
+  width: 507px;
+  height: 20px;
+}
+.site_header_nav_navitem_ul {
   display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

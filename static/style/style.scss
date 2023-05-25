@@ -1,27 +1,61 @@
 $inter: 'Inter', sans-serif;
 $poppins: 'Poppins', sans-serif;
+$blued: #18216D;
 
-@mixin FlexElement($)
+@mixin ForHeader ($align) {
+    display: flex;
+    align-items: $align;
+}
 
-.header {
-    width: 1400px;
-    height: 52px;
-    margin: 25px auto;
-    background-color: aqua;
-    &_logo {
-        width: 32px;
-        height: 32px;
-        &_img {
-            margin: 7px 0 0 7px;
+@mixin ForLogo ($align, $justify) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin ForNav ($align) {
+    display: flex;
+    align-items: $align;
+}
+
+@mixin ForNavItem ($align) {
+    display: flex;
+    align-items: $align;
+}
+
+.site {
+    &_header {
+        @include ForHeader(center);
+        width: 1400px;
+        height: 52px;
+        background: aqua;
+        margin: 0 auto;
+        &_logo {
+            @include ForLogo(center, space-between);
+            width: 114px;
+            height: 32px;
+            &_img {
+                width: 32px;
+                height: 32px;
+            }
+            &_p {
+                font-family: $inter;
+                color: $blued;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 20px;
+                text-align: center;
+            }
         }
-        &_plogo {
-            font-family: $inter;
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 20px;
-            text-align: center; 
-            color: #18216D;
-            margin: 2px;
-        }  
-    }     
+        &_nav {
+            width: 507px;
+            height: 20px;
+            &_navitem {
+                
+                &_ul {
+                    @include ForNav(center);
+                }
+            }
+        }
+    }
 }
