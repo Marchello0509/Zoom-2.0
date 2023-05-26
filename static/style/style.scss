@@ -18,9 +18,10 @@ $blued: #18216D;
     align-items: $align;
 }
 
-@mixin ForNavItem ($align) {
+@mixin ForNavItem ($align, $justif) {
     display: flex;
     align-items: $align;
+    justify-content: $justif;
 }
 
 .site {
@@ -53,7 +54,7 @@ $blued: #18216D;
             &_navitem {
                 
                 &_ul {
-                    @include ForNav(center);
+                    @include ForNav(center, space-between);
                 }
             }
         }
