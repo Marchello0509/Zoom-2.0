@@ -127,6 +127,7 @@ $blued: #18216D;
                     border-radius: 6px;
                     background: #00ECD0;
                     margin-top: 34px;
+                    cursor: pointer;
                     &_p {
                         font-family: $inter;
                         font-weight: 500;
@@ -138,10 +139,12 @@ $blued: #18216D;
             }
             &_right {
                 position: relative;
+                width: 786px;
+                height: 518.35px;
+                margin-top: 65.76px;
                 &_img {
                     position: absolute;
-                    width: 786px;
-                    height: 518.35px;
+                    width: 100%;
                     left: -100px;
                 }
             }

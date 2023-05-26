@@ -113,6 +113,7 @@
   border-radius: 6px;
   background: #00ECD0;
   margin-top: 34px;
+  cursor: pointer;
 }
 .main_site_blocks_left_btn_p {
   font-family: "Inter", sans-serif;
@@ -124,10 +125,12 @@
 }
 .main_site_blocks_right {
   position: relative;
+  width: 786px;
+  height: 518.35px;
+  margin-top: 65.76px;
 }
 .main_site_blocks_right_img {
   position: absolute;
-  width: 786px;
-  height: 518.35px;
+  width: 100%;
   left: -100px;
 }/*# sourceMappingURL=style.css.map */
