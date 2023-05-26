@@ -2,37 +2,21 @@ $inter: 'Inter', sans-serif;
 $poppins: 'Poppins', sans-serif;
 $blued: #18216D;
 
-@mixin ForHeader ($align) {
+@mixin FlexElement($justify, $align) {
     display: flex;
-    align-items: $align;
-}
-
-@mixin ForLogo ($align, $justify) {
-    display: flex;
-    align-items: $align;
     justify-content: $justify;
-}
-
-@mixin ForNav ($align) {
-    display: flex;
-    align-items: $align;
-}
-
-@mixin ForNavItem ($align, $justif) {
-    display: flex;
-    align-items: $align;
-    justify-content: $justif;
+    align-items: center
 }
 
 .site {
     &_header {
-        @include ForHeader(center);
+        @include FlexElement(space-between, center);
         width: 1400px;
         height: 52px;
         background: aqua;
         margin: 0 auto;
         &_logo {
-            @include ForLogo(center, space-between);
+            @include FlexElement(space-between, center);
             width: 114px;
             height: 32px;
             &_img {
@@ -52,9 +36,8 @@ $blued: #18216D;
             width: 507px;
             height: 20px;
             &_navitem {
-                
                 &_ul {
-                    @include ForNav(center, space-between);
+                    @include FlexElement(space-between, center);
                 }
             }
         }

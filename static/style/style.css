@@ -1,5 +1,6 @@
 .site_header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 1400px;
   height: 52px;
@@ -8,8 +9,8 @@
 }
 .site_header_logo {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   width: 114px;
   height: 32px;
 }
@@ -31,5 +32,6 @@
 }
 .site_header_nav_navitem_ul {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }/*# sourceMappingURL=style.css.map */
