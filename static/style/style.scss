@@ -8,12 +8,16 @@ $blued: #18216D;
     align-items: center
 }
 
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
 .site {
     &_header {
         @include FlexElement(space-between, center);
         width: 1400px;
         height: 52px;
-        background: aqua;
         margin: 0 auto;
         &_logo {
             @include FlexElement(space-between, center);
@@ -38,6 +42,107 @@ $blued: #18216D;
             &_navitem {
                 &_ul {
                     @include FlexElement(space-between, center);
+                    &_li {
+                        font-family: $inter;
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+                    &_a {
+                        text-decoration: none;
+                        transition-duration: 1s;
+                        border-bottom: 2px solid #18206d00;
+                        color: $blued;
+                        &:hover {
+                            transition-duration: 1s;
+                            border-bottom: 2px solid $blued;
+                        } 
+                    }    
+                }
+            }
+        }
+        &_headbtns{
+            &_btnw {
+                width: 136px;
+                height: 52px;
+                background: #E5E5E5;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                &_p {
+                    font-family: $inter;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: $blued;
+                }
+            }
+            &_btnb {
+                width: 136px;
+                height: 52px;
+                background: $blued;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                &_p {
+                    font-family: $inter;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: #E5E5E5;
+                }
+            }
+        }
+    }
+
+}
+.main {
+    &_site {
+        &_blocks {
+            @include ForBlocks(center);
+            &_left {
+                width: 498px;
+                height: 284px;
+                margin-top: 179px;
+                &_title {
+                    font-family: $inter;
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 60px;
+                    color: $blued;
+                }
+                &_text {
+                    font-family: $inter;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    color: $blued;
+                    margin-top: 16px;      
+                }
+                &_btn {
+                    width: 180px;
+                    height: 66px;
+                    border: none;
+                    border-radius: 6px;
+                    background: #00ECD0;
+                    margin-top: 34px;
+                    &_p {
+                        font-family: $inter;
+                        font-weight: 500;
+                        font-size: 17px;
+                        line-height: 21px;
+                        column-rule: $blued;
+                    }
+                }
+            }
+            &_right {
+                position: relative;
+                &_img {
+                    position: absolute;
+                    width: 786px;
+                    height: 518.35px;
+                    left: -100px;
                 }
             }
         }

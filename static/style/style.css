@@ -4,7 +4,6 @@
   align-items: center;
   width: 1400px;
   height: 52px;
-  background: aqua;
   margin: 0 auto;
 }
 .site_header_logo {
@@ -34,4 +33,101 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.site_header_nav_navitem_ul_li {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+.site_header_nav_navitem_ul_a {
+  text-decoration: none;
+  transition-duration: 1s;
+  border-bottom: 2px solid rgba(24, 32, 109, 0);
+  color: #18216D;
+}
+.site_header_nav_navitem_ul_a:hover {
+  transition-duration: 1s;
+  border-bottom: 2px solid #18216D;
+}
+.site_header_headbtns_btnw {
+  width: 136px;
+  height: 52px;
+  background: #E5E5E5;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.site_header_headbtns_btnw_p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #18216D;
+}
+.site_header_headbtns_btnb {
+  width: 136px;
+  height: 52px;
+  background: #18216D;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.site_header_headbtns_btnb_p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #E5E5E5;
+}
+
+.main_site_blocks {
+  display: flex;
+  justify-content: center;
+}
+.main_site_blocks_left {
+  width: 498px;
+  height: 284px;
+  margin-top: 179px;
+}
+.main_site_blocks_left_title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #18216D;
+}
+.main_site_blocks_left_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color: #18216D;
+  margin-top: 16px;
+}
+.main_site_blocks_left_btn {
+  width: 180px;
+  height: 66px;
+  border: none;
+  border-radius: 6px;
+  background: #00ECD0;
+  margin-top: 34px;
+}
+.main_site_blocks_left_btn_p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  -moz-column-rule: #18216D;
+       column-rule: #18216D;
+}
+.main_site_blocks_right {
+  position: relative;
+}
+.main_site_blocks_right_img {
+  position: absolute;
+  width: 786px;
+  height: 518.35px;
+  left: -100px;
 }/*# sourceMappingURL=style.css.map */
