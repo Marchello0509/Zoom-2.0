@@ -13,6 +13,16 @@ $blued: #18216D;
     justify-content: $justify;
 }
 
+@mixin ForBlock2 ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+@mixin ForP ($align) {
+    display: flex;
+    align-items: $align
+}
+
 .site {
     &_header {
         @include FlexElement(space-between, center);
@@ -99,7 +109,7 @@ $blued: #18216D;
 }
 .main {
     &_site {
-        &_blocks {
+        &_block1 {
             @include ForBlocks(center);
             &_left {
                 width: 498px;
@@ -147,6 +157,121 @@ $blued: #18216D;
                     width: 100%;
                     left: -100px;
                 }
+            }
+        }
+        &_block2 {
+            @include ForBlocks(center);
+            &_left {
+                width: 494px;
+                height: 150px;
+                margin-top: 122px;
+                &_p {
+                    font-family: $inter;
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 50px;
+                    color: $blued;  
+                }
+            }
+            &_right {
+                @include ForBlock2(space-between);
+                width: 336px;
+                height: 121px;
+                margin-top: 135px;
+                margin-left: 475px;
+                &_downloads {
+                    width: 136px;
+                    height: 114px;
+                    &_title {
+                        font-family: $inter;
+                        font-weight: 700;
+                        font-size: 60px;
+                        line-height: 70px;
+                        letter-spacing: -1px;
+                        color: $blued;
+                    }
+                    &_imgs {
+                        display: flex;
+                        width: 100px;
+                        height: 14px;
+                        margin-top: 10px;
+                        &_img {
+                            width: 16px;
+                            height: 14px;
+                        }   
+                    }
+                    &_p {
+                        font-family: $inter;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 28px;
+                        margin-top: 12px;
+                        color: $blued;
+                    }
+                }
+                &_rating {
+                    width: 107px;
+                    height: 117px;
+                    &_title {
+                        font-family: $inter;
+                        font-weight: 700;
+                        font-size: 60px;
+                        line-height: 70px;
+                        letter-spacing: -1px;
+                        color: $blued;
+                    }
+                    &_imgs {
+                        display: flex;
+                        width: 107px;
+                        height: 16px;
+                        margin-top: 8px;
+                        &_img {
+                            width: 17px;
+                            height: 16px;
+                        }
+                    }
+                    &_p {
+                        font-family: $inter;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 28px;
+                        margin-top: 12px;
+                        color: $blued;
+                    }
+                }
+            }
+        }
+        &_block3 {
+            @include ForBlocks(center);
+            margin-top: 49px;
+            &_img {
+                width: 1110px;
+                height: 34.88px;
+            }
+        }
+        &_block4 {
+            margin: 0 auto;
+            width: 542px;
+            height: 123px;
+            margin-top: 131px;
+            &_title {
+                font-family: $inter;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 64px;
+                letter-spacing: -1px;
+                text-align: center;
+                text-transform: capitalize;
+                color: $blued;
+            }
+            &_p {
+                font-family: $inter;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                text-align: center;
+                color: $blued;
+                margin-top: 12px;
             }
         }
     }
