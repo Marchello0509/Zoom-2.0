@@ -274,5 +274,183 @@ $blued: #18216D;
                 margin-top: 12px;
             }
         }
+        &_block5 {
+            @include ForBlocks(center);
+            margin-top: 48px;
+            &_left {
+                width: 310px;
+                height: 266px;
+                &_divimg {
+                    width: 72px;
+                    height: 72px;
+                    &_img {
+                        width: 72px;
+                        height: 72px;
+                    }
+                }
+                &_title {
+                    font-family: $inter;
+                    margin-top: 28px;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: $blued;
+                }
+                &_p {
+                    font-family: $inter;
+                    margin-top: 14px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    opacity: 0.6;
+                    color: $blued;
+                }
+                &_ln {
+                    font-family: $inter;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 16px;
+                    color: $blued;
+                    text-decoration: none;
+                }
+                &_lnp {
+                    margin-top: 30px;
+                }
+            }
+            &_middle {
+                width: 310px;
+                height: 266px;
+                margin-left: 80px;
+                &_divimg {
+                    width: 56px;
+                    height: 72px;
+                    &_img {
+                        width: 56px;
+                        height: 72px;
+                    }
+                }
+                &_title {
+                    font-family: $inter;
+                    margin-top: 28px;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: $blued;
+                }
+                &_p {
+                    font-family: $inter;
+                    margin-top: 14px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    opacity: 0.6;
+                    color: $blued;
+                }
+                &_ln {
+                    font-family: $inter;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 16px;
+                    color: $blued;
+                    text-decoration: none;
+                }
+                &_lnp {
+                    margin-top: 30px;
+                }
+            }
+            &_right {
+                width: 310px;
+                height: 300px;
+                margin-left: 80px;
+                &_divimg {
+                    width: 71px;
+                    height: 72px;
+                    &_img {
+                        width: 71px;
+                        height: 72px;
+                    }
+                }
+                &_title {
+                    font-family: $inter;
+                    margin-top: 28px;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: $blued;
+                }
+                &_p {
+                    font-family: $inter;
+                    margin-top: 14px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    opacity: 0.6;
+                    color: $blued;
+                }
+                &_ln {
+                    font-family: $inter;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 16px;
+                    color: $blued;
+                    text-decoration: none;
+                }
+                &_lnp {
+                    margin-top: 30px;
+                }
+            }
+        }
+        &_block6 {
+            @include ForBlocks(center);
+            background-color: #e4effe;
+            margin-top: 130px;
+            height: 593px;
+            width: 100%;
+            &_left {
+                width: 484px;
+                height: 297px;
+                margin-top: 143px;
+                &_title {
+                    font-family: $inter;
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 48px;
+                    color: $blued;
+                }
+                &_p {
+                    font-family: $inter;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    opacity: 0.8;
+                    color: $blued;
+                    margin-top: 15px;
+                }
+                &_btn {
+                    width: 160px;
+                    height: 52px;
+                    background: #005FEC;
+                    border-radius: 6px;
+                    margin-top: 56px;
+                    border: none;
+                    cursor: pointer;
+                }
+                &_btnp {
+                    font-family: $inter;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 21px;
+                    color: #fff;
+                }
+            }
+            &_right {
+                margin-top: 78px;
+                margin-left: 106px;
+                &_img {
+                    width: 690px;
+                    height: 437px;
+                }
+            }
+        }
     }
 }
