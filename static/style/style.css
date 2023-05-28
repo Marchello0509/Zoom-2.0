@@ -54,14 +54,14 @@
 .site_header_headbtns_btnw {
   width: 136px;
   height: 52px;
-  background: #E5E5E5;
+  background: none;
   border: none;
   border-radius: 6px;
   cursor: pointer;
 }
 .site_header_headbtns_btnw_p {
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   line-height: 20px;
   color: #18216D;
@@ -76,7 +76,7 @@
 }
 .site_header_headbtns_btnb_p {
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   line-height: 20px;
   color: #E5E5E5;
@@ -1009,12 +1009,130 @@
 .main_site_block11_cont2 {
   width: 112px;
   height: 243px;
+  margin-left: 100px;
 }
 .main_site_block11_cont2_p {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 22px;
   line-height: 26px;
+  color: #18216D;
+}
+.main_site_block11_cont2_ul {
+  margin-top: 15px;
+  list-style: none;
+}
+.main_site_block11_cont2_ul_li_a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #18216D;
+}
+.main_site_block11_cont3 {
+  width: 112px;
+  height: 243px;
+  margin-left: 100px;
+}
+.main_site_block11_cont3_p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #18216D;
+}
+.main_site_block11_cont3_ul {
+  margin-top: 15px;
+  list-style: none;
+}
+.main_site_block11_cont3_ul_li_a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #18216D;
+}
+.main_site_block11_cont4 {
+  width: 112px;
+  height: 243px;
+  margin-left: 100px;
+}
+.main_site_block11_cont4_p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #18216D;
+}
+.main_site_block11_cont4_ul {
+  margin-top: 15px;
+  list-style: none;
+}
+.main_site_block11_cont4_ul_li_a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #18216D;
+}
+.main_site_block11_cont5 {
+  width: 274px;
+  height: 162px;
+  margin-left: 100px;
+}
+.main_site_block11_cont5_title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #18216D;
+}
+.main_site_block11_cont5_email {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  color: #18216D;
+  opacity: 0.8;
+  margin-top: 15px;
+}
+.main_site_block11_cont5_phone {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  color: #18216D;
+  opacity: 0.8;
+  margin-top: 2px;
+}
+.main_site_block11_cont5_location {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  color: #18216D;
+  opacity: 0.8;
+  margin-top: 2px;
+}
+.main_site_block12 {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #18216D;
+  opacity: 0.1;
+  margin-top: 60px;
+}
+.main_site_block13 {
+  text-align: center;
+  margin-top: 30px;
+}
+.main_site_block13_IMM {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   color: #18216D;
 }
 
