@@ -23,6 +23,12 @@ $blued: #18216D;
     align-items: $align
 }
 
+@mixin imgAbsolute($left){ 
+    position: absolute;
+    left: $left;
+    top: 0;
+}
+
 .site {
     &_header {
         @include FlexElement(space-between, center);
@@ -452,5 +458,157 @@ $blued: #18216D;
                 }
             }
         }
+        &_block7 {
+            @include ForBlocks(center);
+            &_left {
+                position: relative;
+                width: 572px;
+                height: 508px;
+                display: flex;
+                justify-content: center;
+                margin-top: 130px;
+                margin-right: 95px;
+                &_points {
+                    position: absolute;
+                    z-index: -1;
+                    top: 366px;
+                    left: 4px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    width: 122px;
+                    height: 118px;
+                    &_point {
+                        width: 6px;
+                        height: 6px;
+                        background: #005eec10;
+                        border-radius: 50%;
+                    }
+                }
+                &_img {
+                    width: 400px;
+                    height: 450px;
+                }
+                &_meet {
+                    position: absolute;
+                    left: 335px;
+                    top: 351px;
+                    width: 184px;
+                    height: 150px;
+                    padding: 0 25px;
+                    border-radius: 6px;
+                    background: #FFF;
+                    box-shadow: -4px 8px 20px rgba(24, 33, 109, 0.05);
+                    &_title {
+                        text-align: center;
+                        font-family: $inter;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 26px;
+                        color: $blued;
+                        margin-top: 18px;
+                    }
+                    &_imgs {
+                        width: 132px;
+                        margin: 0 auto;
+                        position: relative;
+                        margin-top: 8px;
+                        &_img {
+                            width: 36px;
+                            height: 36px;
+                            border-radius: 50%;
+                            border: 1px solid #FFF;
+                        }  
+                    }
+                    &_btns {
+                        margin-left: 42px;
+                        margin-top: 16px;
+                        &_btn {
+                            width: 100px;
+                            height: 30px;
+                            background: #DAE9FF;
+                            font-family: $inter;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 16px;
+                            color: #005FEC;
+                            border: none;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+            &_right {
+                width: 496px;
+                height: 436px;
+                margin-top: 130px;
+                &_title {
+                    font-family: $inter;
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 48px;
+                    color: $blued; 
+                }
+                &_p {
+                    font-family: $inter;
+                    color: $blued;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    margin-top: 16px
+                }
+                &_items {
+                    width: 310px;
+                    height: 108px;
+                    margin-top: 31px;
+                    &_item {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 28px;
+                        &_img {
+                            width: 19.97px;
+                            height: 19.97px;
+                        }
+                        &_p {
+                            font-family: $inter;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 18px;
+                            margin-left: 16px;
+                            color: $blued; 
+                        }
+                    }
+                }
+                &_btn {
+                    width: 164px;
+                    height: 54px;
+                    background: #005FEC;
+                    border-radius: 6px;
+                    font-family: $inter;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #FFF;
+                    border: none; 
+                    margin-top: 52px;
+                } 
+            }
+        }
+    }
+}
+.imgAbsolute{
+    &_1{ 
+        @include imgAbsolute(25px);
+    }
+    &_2{ 
+        @include imgAbsolute(50px);
+    }
+    &_3{ 
+        @include imgAbsolute(75px);
+    }
+    &_4{ 
+        @include imgAbsolute(100px);
     }
 }
