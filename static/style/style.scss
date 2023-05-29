@@ -695,8 +695,7 @@ $blued: #18216D;
                     }
                 }
                 &_bl2 {
-                    margin-top: 39px;
-                    margin-left: 41px;
+                    margin: 0 auto;
                     width: 249px;
                     height: 361px;
                     &_ul {
@@ -741,7 +740,9 @@ $blued: #18216D;
                     &_btn {
                         width: 181px;
                         height: 52px;
+                        margin: 40 auto 0 auto;
                         margin-top: 40px;
+                        display: block;
                         background: #005FEC;
                         border-radius: 6px;
                         font-family: $inter;
@@ -770,7 +771,6 @@ $blued: #18216D;
                     width: 355px;
                     height: 160px;
                     &_content {
-                        width: 143px;
                         height: 84px;
                         margin-left: 41px;
                         margin-top: 22px;
@@ -798,8 +798,7 @@ $blued: #18216D;
                     }
                 }
                 &_bl2 {
-                    margin-top: 39px;
-                    margin-left: 41px;
+                    margin: 0 auto;
                     width: 249px;
                     height: 361px;
                     &_ul {
@@ -835,7 +834,9 @@ $blued: #18216D;
                     &_btn {
                         width: 181px;
                         height: 52px;
+                        margin: 40 auto 0 auto;
                         margin-top: 40px;
+                        display: block;
                         background: #005FEC;
                         border-radius: 6px;
                         font-family: $inter;
@@ -864,7 +865,6 @@ $blued: #18216D;
                     width: 355px;
                     height: 160px;
                     &_content {
-                        width: 143px;
                         height: 84px;
                         margin-left: 41px;
                         margin-top: 22px;
@@ -892,8 +892,7 @@ $blued: #18216D;
                     }
                 }
                 &_bl2 {
-                    margin-top: 39px;
-                    margin-left: 41px;
+                    margin: 0 auto;
                     width: 249px;
                     height: 361px;
                     &_ul {
@@ -920,7 +919,9 @@ $blued: #18216D;
                     &_btn {
                         width: 181px;
                         height: 52px;
+                        margin: 40 auto 0 auto;
                         margin-top: 40px;
+                        display: block;
                         background: #005FEC;
                         border-radius: 6px;
                         font-family: $inter;
